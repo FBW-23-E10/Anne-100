@@ -1,0 +1,25 @@
+{
+  "name": "anne-100",
+  "version": "1.0.0",
+  "description": "My First project",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run compile-sass & live-server",
+    "compile-sass": "sass --watch src/styles/main.scss src/styles/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FBW-23-E10/Anne-100.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FBW-23-E10/Anne-100/issues"
+  },
+  "homepage": "https://github.com/FBW-23-E10/Anne-100#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.70.0"
+  }
+}
